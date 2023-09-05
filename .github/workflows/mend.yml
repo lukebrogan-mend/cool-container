@@ -11,11 +11,11 @@ jobs:
       - name: Mend CLI Scan
         env:
          # Add environment variables for authentication
-          export MEND_EMAIL: ${{secrets.MEND_SCA_EMAIL}}
-          export MEND_USER_KEY: ${{secrets.MEND_SCA_USERKEY}}
-          export MEND_URL: https://saas-eu.mend.io
-          export IMAGENAME: cool-container
-          export IMAGETAG: 1.0
+         MEND_EMAIL: ${{secrets.MEND_SCA_EMAIL}}
+         MEND_USER_KEY: ${{secrets.MEND_SCA_USERKEY}}
+         MEND_URL: https://saas-eu.mend.io
+         IMAGENAME: cool-container
+         IMAGETAG: 1.0
         
           # ******** Mend Unified CLI Template for Bash ********
           #
