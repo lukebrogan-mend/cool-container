@@ -49,8 +49,8 @@ jobs:
             # mend code
             
             # Build your image (basic docker example below)
-            docker build . -t $IMAGENAME:$IMAGETAG 
+            docker build . -t cool-container:1.0
             
             # Run a Mend Container Image Scan
             echo "Run a Mend image scan"
-            mend image $IMAGENAME:$IMAGETAG
+            mend image cool-container:1.0
