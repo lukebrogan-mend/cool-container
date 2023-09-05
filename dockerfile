@@ -4,5 +4,5 @@ WORKDIR /usr/src/easybuggy/
 FROM openjdk:8-slim
 
 # Mend traceability labels
-LABEL io.mend.image.dockerfile.path=frontend/Dockerfile.fe
-LABEL org.opencontainers.image.source=https://github.com/lukebrogan-mend/tracing-demo-recording
+LABEL io.mend.image.dockerfile.path=dockerfile
+LABEL org.opencontainers.image.source=https://github.com/lukebrogan-mend/cool-container
