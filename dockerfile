@@ -1,7 +1,7 @@
 FROM maven:3.8-jdk-8 as builder
 WORKDIR /usr/src/easybuggy/
 
-FROM openjdk:8-slim
+FROM openjdk:21-slim
 
 # Mend traceability labels
 LABEL io.mend.image.dockerfile.path=dockerfile
