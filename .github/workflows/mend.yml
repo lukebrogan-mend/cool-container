@@ -55,4 +55,4 @@ jobs:
           
           # Run a Mend Container Image Scan
           echo "Run a Mend image scan"
-          mend image cool-container:1.0
+          mend image cool-container:1.0 -s "Luke Brogan Demo - Github.com//GitHubActions//cool-container"
